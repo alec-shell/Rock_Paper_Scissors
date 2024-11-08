@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    background-color: darkgray;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    color: whitesmoke;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.game_area {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#moves {
+    padding: 5px 10px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+
+#submit {
+    background-color: gold;
+    border: 3px solid lightgoldenrodyellow;
+    font-size: 120%;
+    border-radius: 5px;
+}
+
+.game_output {
+    min-height: 100%;
+    min-width: 30%;
+    text-align: center;
+}
+
+.game_input,
+.game_output {
+    background-color: rgb(200,200,200);
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 2%;
+}
