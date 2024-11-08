@@ -48,7 +48,7 @@ function submitMove() {
         document.getElementById("remainingRounds").innerHTML = `ROUNDS LEFT: ${roundsLeft}`;
 
         //recursive call if game is over
-        if (roundsLeft === 0 || userScore === 2 || compScore === 0) {
+        if (roundsLeft === 0 || userScore === 2 || compScore === 2) {
             submitMove();
         }
     }
