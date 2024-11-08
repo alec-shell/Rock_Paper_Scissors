@@ -53,7 +53,7 @@ function submitMove() {
         }
     }
 
-    //if a player has won or score is zero, display alert, reset variables and page
+    //if a player has won or roundsLeft is zero, display alert, reset variables and page
     else {
         if (userScore > compScore) {
             alert("!!!!YOU WIN!!!!");
